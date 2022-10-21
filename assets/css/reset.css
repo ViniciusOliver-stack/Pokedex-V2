@@ -31,3 +31,24 @@
   --bg-flying: #5d4e75;
   --bg-ice: #72dffe;
 }
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: none none;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-track {
+  background: none;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: none;
+  border-radius: 0;
+  border: 0 solid none;
+}
