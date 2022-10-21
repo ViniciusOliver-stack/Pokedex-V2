@@ -1,0 +1,149 @@
+@import url(./reset.css);
+
+body{
+  background: var(--bg-grass);
+  max-width: 1120px;
+  margin: 2rem auto;
+}
+
+#input_search{
+  background-color: rgba(255, 255, 255, 0.22);
+  border: none;
+  padding: 5px 1rem;
+  border-radius: 5px;
+  outline: none;
+}
+
+#input_search::placeholder{
+  color: white;
+  opacity: .8;
+}
+
+.pokemon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.pokemon-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+}
+
+.pokemon_type{
+  opacity: .8;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.pokemon_number{
+  font-size: 4.4rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.18);
+}
+
+.pokemon_name{
+  font-size: 6.4rem;
+  line-height: 6rem;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.button{
+  font-size: 4rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/*pokemon_stats_basic*/
+.pokemon_stats_basic .heigth,
+.pokemon_stats_basic .weight,
+.pokemon_stats_basic .abilities{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  text-transform: capitalize;
+}
+
+.data{
+  color: white;
+  font-weight: 400;
+}
+
+.description{
+  font-weight: 700;
+  color: white;
+}
+
+.stats_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  margin-top: 6rem;
+}
+
+.stats_wrapper h3{
+  font-size: 4.5rem;
+  color: white;
+
+  transform: rotate(-90deg);
+}
+
+.stats_wrapper .stats > div{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.stats_wrapper .stats{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.stats_wrapper .stats .description{
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+progress {
+  display:block;
+  -webkit-appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background: none;
+  border-radius: 5rem;
+  padding: 2px;
+  height: 20px;
+}
+progress::-moz-progress-bar {  
+  background: none;
+  border-radius: 5rem;
+  padding: 0px;
+}
+
+progress::-webkit-progress-value {
+  border-radius: 5rem;
+  background:white;
+}

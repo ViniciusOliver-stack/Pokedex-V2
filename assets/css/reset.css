@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+:root{
+  font-size: 62.5%;
+
+  --bg-fire: #ff8c05;
+  --bg-electric: #b39f08;
+  --bg-normal: #8d5360;
+  --bg-grass: #3ba76d;
+  --bg-water: #0051ad;
+  --bg-bug: #782400;
+  --bg-poison: #7c0056;
+  --bg-fairy: #d52185;
+  --bg-fighting: #624136;
+  --bg-psychic: #ce008f;
+  --bg-rock: #731e00;
+  --bg-ghost: #54626a;
+  --bg-dragon: #00cc44;
+  --bg-dark: #32312f;
+  --bg-steel: #009a9e;
+  --bg-ground: #cf0093;
+  --bg-flying: #5d4e75;
+  --bg-ice: #72dffe;
+}

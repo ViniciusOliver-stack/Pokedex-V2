@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex - V2.0</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <form class="form">
+      <input type="search" id="input_search" required placeholder="Name or Number">
+    </form>
+
+    <div class="pokemon-wrapper">
+      <div class="pokemon">
+        <div class="pokemon_data_wrapper">
+
+          <div class="pokemon-title">
+            <img src="./assets/images/icons/grass.svg" alt="" class="pokemon_type_image">
+
+            <div class="pokemon_data">
+              <div class="pokemon_type"></div>
+              <span class="pokemon_number"></span>
+              <span class="pokemon_name"></span>
+            </div>
+          </div>
+
+            <div class="pokemon_stats_basic">
+              <div class="heigth">
+                <span class="description">Heigth</span>
+                <span class="data">0.7M</span>
+              </div>
+    
+              <div class="weight">
+                <span class="description">Weigth</span>
+                <span class="data">6.9KG</span>
+              </div>
+    
+              <div class="abilities">
+                <span class="description">Abilities</span>
+                <span class="data">Overgrow</span>
+              </div>
+            </div>
+        </div>
+
+        <img src="./assets/images/pokemon/1.png" alt="" class="pokemon_img">
+        </div>
+    </div>
+
+    <div class="buttons">
+      <button class="button btn-prev">
+        <i class="fa-solid fa-chevron-left fa-sm"></i>
+      </button>
+      <button class="button btn-next"> 
+        <i class="fa-solid fa-chevron-right fa-sm"></i>
+      </button>
+    </div>
+    
+    <div class="stats_wrapper">
+      <h3>Stats</h3>
+      <div class="stats">
+        <div class="hp">
+          <span class="description">HP</span>
+          <progress value="" max="100" class="progress"></progress>
+          <span class="data">95</span>
+        </div>
+
+        <div class="attack">
+          <span class="description">attack</span>
+          <progress value="" max="100" class="progress"></progress>
+          <span class="data">95</span>
+        </div>
+
+        <div class="defense">
+          <span class="description">defense</span>
+          <progress value="" max="100" class="progress"></progress>
+          <span class="data">95</span>
+        </div>
+
+        <div class="speed">
+          <span class="description">Speed</span>
+          <progress value="" max="100" class="progress"></progress>
+          <span class="data">95</span>
+        </div>
+
+        <div class="special_attack">
+          <span class="description">Special Attack</span>
+          <progress value="" max="100" class="progress"></progress>
+          <span class="data">95</span>
+        </div>
+
+        <div class="special_defense">
+          <span class="description">Special Defense</span>
+          <progress value="" max="100" class="progress"></progress>
+          <span class="data">95</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
